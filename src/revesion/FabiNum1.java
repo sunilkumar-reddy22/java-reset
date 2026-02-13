@@ -1,5 +1,6 @@
 package revesion;
 import java.util.Scanner;
+
 public class FabiNum1 {
     public static void main(String[] args) {
         System.out.println("input a integer: ");
@@ -24,7 +25,15 @@ public class FabiNum1 {
             a = b;
             b = temp1;
         }
+        System.out.println("\nFactorial");
+        int terms = input.nextInt();
+        long count = 1;
+        long fact = 1;
+        while (count <= terms) {
+            fact = count * fact;
+            count++;
+        }
+        System.out.println("fact = " + fact);
 
     }
 }
-
