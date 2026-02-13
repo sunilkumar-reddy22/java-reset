@@ -12,24 +12,22 @@ public class FabiNum1 {
             int temp = n2;
             n2 = n1 + n2;
             n1 = temp;
-
         }
-        System.out.println(n2);
-        System.out.println("\nseries");
-        int num2 = input.nextInt();
+        System.out.println("\nFibonacci term at postion " + num + " = "  + n2);
+        System.out.println("\nFibonacci series: ");;
         int a = 0;
         int b = 1;
-        for (int k = 2; k <= num2; k++) {
+        System.out.println(a+ " " +b);
+        for (int k = 3; k <= num; k++) {
             int temp1 = a + b;
             System.out.print(temp1 + " ");
             a = b;
             b = temp1;
         }
         System.out.println("\nFactorial");
-        int terms = input.nextInt();
         long count = 1;
         long fact = 1;
-        while (count <= terms) {
+        while (count <= num) {
             fact = count * fact;
             count++;
         }
