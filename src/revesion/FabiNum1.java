@@ -8,13 +8,12 @@ public class FabiNum1 {
         int n1 = 0;
         int n2 = 1;
         for(int i = 2; i <=num; i++) {
-            int next = n1 + n2;
-            System.out.println(next + " ");
-            n1 = n2;
-            n2 = next;
-            int sum = n1 + n2;
-            System.out.print(sum);
+            int temp = n2;
+             n2  = n1 + n2;
+            n1 = temp;
+
         }
+        System.out.println(n2);
     }
 
 }
