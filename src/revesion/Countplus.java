@@ -7,7 +7,7 @@ public class Countplus {
 
         while(num > 0) {
             int rem = num % 10;  // After operation the last digit will be updated in rem;but og num reamins 23453
-            if (rem == 3) {
+            if (rem == 3 || rem == 2) {
                 count++;
             }
             num = num / 10;   //to remove last digit and update num  for additional divisdn and for number check
