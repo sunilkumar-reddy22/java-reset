@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class FunCode {
     public static void main(String[] args) {
         sum();
+        sum();
         System.out.println("get back to main");
     }
     static void sum() {
@@ -13,7 +14,6 @@ public class FunCode {
         int b = input.nextInt();
         int sum = a + b;
         System.out.println("sum =  " + sum );
-
 
     }
 }
