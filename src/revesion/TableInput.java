@@ -1,6 +1,6 @@
 package revesion;
 import java.util.Scanner;
-public class TableInput {
+public class  TableInput {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         while (true) {
