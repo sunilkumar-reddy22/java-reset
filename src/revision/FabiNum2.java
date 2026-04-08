@@ -1,4 +1,4 @@
-package revesion;
+package revision;
 import java.util.Scanner;
 public class FabiNum2 {
     public static void main(String[] args) {

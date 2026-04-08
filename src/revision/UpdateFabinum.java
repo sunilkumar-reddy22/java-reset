@@ -1,4 +1,4 @@
-package revesion;
+package revision;
 import java.util.Scanner;
 public class UpdateFabinum {
     public static void main(String[] args) {

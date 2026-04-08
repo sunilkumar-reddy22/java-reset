@@ -1,4 +1,4 @@
-package revesion;
+package revision;
 
 public class Mathtables1to20 {
     public static void main(String[] args) {
