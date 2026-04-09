@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class ArrayListExample {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        System.out.println("Enter Nums: ");
         //an ArrayList that stores other lists of integer
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         for (int i = 0; i < 3; i++) {

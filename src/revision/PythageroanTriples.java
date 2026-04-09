@@ -9,14 +9,14 @@ public class PythageroanTriples {
         int b = in.nextInt();
         System.out.println("Third Number: ");
         int c =  in.nextInt();
-       if(isprime(a,b,c)) {
-           System.out.println("Is Prime");
+       if(triplet(a,b,c)) {
+           System.out.println("Is triplet");
        }
        else {
            System.out.println("Is not prime");
        }
     }
-    static boolean isprime(int a,int b,int c) {
+    static boolean triplet(int a,int b,int c) {
         int max = Math.max(a, Math.max(b,c));
         if(max == a) {
            return a * a == b * b + c * c;
