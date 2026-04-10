@@ -23,7 +23,7 @@ public class Mathpytho {
         if (max == a) {
             y = b * b + c * c;
         }
-        else if (max == b) {
+         if (max == b) {
             y = a * a + c * c;
         } else {
             y = b * b + a * a;
@@ -35,6 +35,7 @@ public class Mathpytho {
             System.out.println("not a triplet");
 
         }
+
     }
 
 }
