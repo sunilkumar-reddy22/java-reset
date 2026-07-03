@@ -6,6 +6,9 @@ public class  TableInput {
         while (true) {
             System.out.println("Enter Number:");
             int table = input.nextInt();
+            if(table == 0) {
+                break;
+            }
             for (int i = 1; i <= 10; i++) {
                 System.out.println(table + " x  " + i + " = " + (table * i));
             }
